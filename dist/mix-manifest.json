@@ -1,0 +1,19 @@
+{
+    "/js/complexfilter.js": "/js/complexfilter.js",
+    "/js/everytypefilter.js": "/js/everytypefilter.js",
+    "/js/greaternumberfilter.js": "/js/greaternumberfilter.js",
+    "/js/lessernumberfilter.js": "/js/lessernumberfilter.js",
+    "/js/normalizedstringfilter.js": "/js/normalizedstringfilter.js",
+    "/js/numberrangefilter.js": "/js/numberrangefilter.js",
+    "/js/sometypefilter.js": "/js/sometypefilter.js",
+    "/js/stringfilter.js": "/js/stringfilter.js",
+    "/css/main.css": "/css/main.css",
+    "/complexfilter.html": "/complexfilter.html",
+    "/everytypefilter.html": "/everytypefilter.html",
+    "/greaternumberfilter.html": "/greaternumberfilter.html",
+    "/lessernumberfilter.html": "/lessernumberfilter.html",
+    "/normalizedstringfilter.html": "/normalizedstringfilter.html",
+    "/numberrangefilter.html": "/numberrangefilter.html",
+    "/sometypefilter.html": "/sometypefilter.html",
+    "/stringfilter.html": "/stringfilter.html"
+}

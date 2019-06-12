@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js-filters | Examples | Complex Filter</title>
+	<link rel="stylesheet" type="text/css" href="/dist/css/main.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<div class="container pt-5">
+		<div class="row">
+			<div class="col-md-8 offset-md-">
+				<h2>Complex Filter</h2>
+				<p>
+					You can find source code for this example
+					<a href="https://github.com/dtokos/js-filters-examples/src/js/complexfilter.js">here.</a>
+				</p>
+				<p><input type="text" name="name-filter" class="form-control" placeholder="Name filter..."></p>
+				<p><input type="text" name="age-filter" class="form-control" placeholder="Age filter..."></p>
+				<div class="row">
+					<div class="col-6">
+						<p><input type="text" name="salary-from-filter" class="form-control" placeholder="Salary from filter..."></p>
+					</div>
+					<div class="col-6">
+						<p><input type="text" name="salary-to-filter" class="form-control" placeholder="Salary to filter..."></p>
+					</div>
+				</div>
+				<p>
+					<select name="favourite-color-filter" class="form-control" placeholder="Favourite color filter..." multiple>
+						<option value="red">red</option>
+						<option value="green">green</option>
+						<option value="blue">blue</option>
+					</select>
+				</p>
+				<table class="table" id="table">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Age</th>
+							<th>Sallary</th>
+							<th>Favourite colors</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr data-name="John" data-age="22" data-salary="764" data-favourite-colors="red,blue">
+							<td>John</td>
+							<td>22</td>
+							<td>764</td>
+							<td>red,blue</td>
+						</tr>
+						<tr data-name="Samantha" data-age="19" data-salary="822" data-favourite-colors="blue,green">
+							<td>Samantha</td>
+							<td>19</td>
+							<td>822</td>
+							<td>blue,green</td>
+						</tr>
+						<tr data-name="Desmond" data-age="34" data-salary="961" data-favourite-colors="red,green">
+							<td>Desmond</td>
+							<td>34</td>
+							<td>961</td>
+							<td>red,green</td>
+						</tr>
+						<tr data-name="Lisa" data-age="25" data-salary="612" data-favourite-colors="red">
+							<td>Lisa</td>
+							<td>25</td>
+							<td>612</td>
+							<td>red</td>
+						</tr>
+						<tr data-name="Paul" data-age="63" data-salary="512" data-favourite-colors="green">
+							<td>Paul</td>
+							<td>63</td>
+							<td>512</td>
+							<td>green</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-4">
+				<h2>
+					<a href="https://github.com/dtokos/js-filters">js-filters</a>
+					| Examples
+				</h2>
+				<p>
+					You can find source code for the examples
+					<a href="https://github.com/dtokos/js-filters-examples/src">here.</a>
+				</p>
+				<ul class="list-group">
+					<a href="/dist/stringfilter.html" class="list-group-item list-group-action">StringFilter</a>
+					<a href="/dist/normalizedstringfilter.html" class="list-group-item list-group-action">NormalizedStringFilter</a>
+					<a href="/dist/lessernumberfilter.html" class="list-group-item list-group-action">LesserNumberFilter</a>
+					<a href="/dist/greaternumberfilter.html" class="list-group-item list-group-action">GreaterNumberFilter</a>
+					<a href="/dist/numberrangefilter.html" class="list-group-item list-group-action">NumberRangeFilter</a>
+					<a href="/dist/sometypefilter.html" class="list-group-item list-group-action">SomeTypeFilter</a>
+					<a href="/dist/everytypefilter.html" class="list-group-item list-group-action">EveryTypeFilter</a>
+					<a href="/dist/complexfilter.html" class="list-group-item list-group-action active">Complex Filter</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="/dist/js/complexfilter.js"></script>
+</body>
+</html>
