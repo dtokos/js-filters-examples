@@ -1,5 +1,5 @@
 import DataAdapter from 'js-filters/DataAdapter';
-import FilterHandler from 'js-filters/Handler';
+import GetterFilterHandler from 'js-filters/GetterHandler';
 import LesserNumberFilter from 'js-filters/Filters/LesserNumber';
 
 const filterElement = document.querySelector('[name="filter"]');
@@ -13,7 +13,7 @@ const filters = [
 	new LesserNumberFilter(adapter),
 ];
 
-const handler = new FilterHandler(filters, getItems);
+const handler = new GetterFilterHandler(filters, getItems);
 
 filterElement.addEventListener('change', function() {
 	handler.filterIterationCallback((item, passed) => {

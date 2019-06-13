@@ -1,5 +1,5 @@
 import DataAdapter from 'js-filters/DataAdapter';
-import FilterHandler from 'js-filters/Handler';
+import GetterFilterHandler from 'js-filters/GetterHandler';
 import NormalizedStringFilter from 'js-filters/Filters/NormalizedString';
 import GreaterNumberFilter from 'js-filters/Filters/GreaterNumber';
 import NumberRangeFilter from 'js-filters/Filters/NumberRange';
@@ -37,7 +37,7 @@ const filters = [
 	)),
 ];
 
-const handler = new FilterHandler(filters, getItems);
+const handler = new GetterFilterHandler(filters, getItems);
 
 function changeCallback() {
 	handler.filterIterationCallback((item, passed) => {

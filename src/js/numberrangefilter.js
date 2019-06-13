@@ -1,5 +1,5 @@
 import DataAdapter from 'js-filters/DataAdapter';
-import FilterHandler from 'js-filters/Handler';
+import GetterFilterHandler from 'js-filters/GetterHandler';
 import NumberRangeFilter from 'js-filters/Filters/NumberRange';
 
 const fromFilterElement = document.querySelector('[name="from-filter"]');
@@ -14,7 +14,7 @@ const filters = [
 	new NumberRangeFilter(adapter),
 ];
 
-const handler = new FilterHandler(filters, getItems);
+const handler = new GetterFilterHandler(filters, getItems);
 
 function changeCallback() {
 	handler.filterIterationCallback((item, passed) => {
